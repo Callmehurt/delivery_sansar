@@ -6,7 +6,7 @@
  */
 
 $(document).ready(function() {
-    $('#datatable').DataTable();
+    $('.basic-datatable').DataTable();
 
     //Buttons examples
     var table = $('#datatable-buttons').DataTable({

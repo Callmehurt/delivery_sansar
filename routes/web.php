@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
-});
+    return view('home');
+})->name('home');
 
 Route::view('/{path?}', 'dashboard')
     ->where('path', '.*')
