@@ -1,6 +1,7 @@
 import React from "react";
 
 import NewRegisteredDeliveries from "../components/NewRegisteredDeliveries";
+import AddDeliveryModal from "../components/branch/delivery/AddDeliveryModal";
 
 const Deliveries = () => {
     return (
@@ -58,6 +59,8 @@ const Deliveries = () => {
 
                             <div className="tab-content">
                                 <div className="tab-pane active p-3" id="new" role="tabpanel">
+                                    <button className={'btn btn-sm btn-primary mb-3'} data-toggle="modal" data-target="#addNewDeliveryModal">Add New Delivery</button>
+                                    <AddDeliveryModal/>
                                     <NewRegisteredDeliveries/>
                                 </div>
                                 <div className="tab-pane p-3" id="warehouseTab" role="tabpanel">

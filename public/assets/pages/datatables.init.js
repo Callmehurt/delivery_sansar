@@ -1,19 +1,7 @@
-/*
- Template Name: Stexo - Responsive Bootstrap 4 Admin Dashboard
- Author: Themesdesign
- Website: www.themesdesign.in
- File: Datatable js
- */
 
 $(document).ready(function() {
-    $('.basic-datatable').DataTable();
-
-    //Buttons examples
-    var table = $('#datatable-buttons').DataTable({
-        lengthChange: false,
-        buttons: ['copy', 'excel', 'pdf', 'colvis']
+    $('.basic-datatable').DataTable({
+        "lengthMenu": [ [50, 100, 150, -1], [50, 100, 150, "All"] ],
+        "pageLength": 50,
     });
-
-    table.buttons().container()
-        .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
 } );

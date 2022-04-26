@@ -146,15 +146,12 @@
                 <ul class="metismenu" id="side-menu">
                     <li class="menu-title">Menu</li>
                     <li>
-                        <a href="/branch/dashboard" class="waves-effect">
+                        <a href="/partner/dashboard" class="waves-effect">
                             <i class="icon-accelerator"></i><span class="badge badge-success badge-pill float-right">9+</span><span>Dashboard </span>
                         </a>
                     </li>
                     <li>
-                        <a href="/branch/partners" class="waves-effect"><i class="mdi mdi-account-network"></i><span> Partners </span></a>
-                    </li>
-                    <li>
-                        <a href="/branch/deliveries" class="waves-effect"><i class="icon-calendar"></i><span> Deliveries </span></a>
+                        <a href="/partner/my-deliveries" class="waves-effect"><i class="icon-calendar"></i><span> My Deliveries </span></a>
                     </li>
                 </ul>
 
